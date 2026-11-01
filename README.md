@@ -1,22 +1,16 @@
-# AI Creative DZ — GitHub Pages
+# AI Creative DZ — Updated Portfolio
 
-## Publish
-1. Create a new GitHub repository (for example `ai-creative-dz`).
-2. Upload `index.html` to the repository root.
-3. In **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
-4. Wait for GitHub Pages to publish the site.
+## Publish on GitHub Pages
+1. Download and extract the ZIP.
+2. Upload `index.html` and the complete `assets` folder to the root of your existing `ai-creative-dz` repository.
+3. Keep the folder name exactly `assets`; the HTML references images inside it.
+4. Commit the changes and wait for GitHub Pages to redeploy.
 
-## Before publishing
-Open `index.html` and find:
+## Before using the contact form
+Open `index.html` and replace `YOUR_EMAIL@example.com` in `BUSINESS_EMAIL` with a real business email address. The form opens the visitor's email app; it does not store submissions or send through a server.
 
-```js
-const BUSINESS_EMAIL = "YOUR_EMAIL@example.com";
-```
+## Portfolio note
+The six images are original AI-generated concept visuals for Nova Tech, Maison Café, Aqua Wellness, Pulse Fitness, Ember Food and Nexus SaaS. Keep the on-page disclosure that these are concept samples, not client commissions.
 
-Replace it with the business email address that should receive enquiries. The contact form uses `mailto:` and opens the visitor's email application; it does not store submissions or send them through a server.
-
-## Important
-- Portfolio entries are illustrative concept samples, not real client projects. Keep that disclosure visible unless you replace them with genuine work.
-- Prices are starter estimates. Adjust them to your skills, scope and market.
-- The site is static and does not include a database, payment processing, authentication or a backend.
-- The language selector supports English, French and Arabic. The chosen language is saved in the visitor's browser local storage.
+## Site details
+Static HTML/CSS/JavaScript website for GitHub Pages. No database, payment processing, login or backend is included.
